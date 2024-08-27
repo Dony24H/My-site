@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1a1a2e;
+    color: #ffffff;
+    background-image: url(''); /* Пустое значение для смены фона через JS */
+    transition: background-color 0.3s ease;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #0f0f20;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+}
+
+header {
+    margin-bottom: 40px;
+    animation: fadeInDown 1s ease-out;
+}
+
+h1 {
+    font-size: 3em;
+    color: #9d4edd;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.movie-post {
+    display: flex;
+    background-color: #2a2a4f;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.movie-post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+}
+
+.movie-poster {
+    flex: 0 0 300px;
+    overflow: hidden;
+}
+
+.movie-poster img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.movie-poster img:hover {
+    transform: scale(1.05);
+}
+
+.movie-details {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+}
+
+.movie-details h2 {
+    color: #d1b3ff;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.movie-details p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.watch-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #9d4edd;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.watch-link:hover {
+    background-color: #d1b3ff;
+    transform: scale(1.05);
+}
+
+footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #9d4edd;
+    animation: fadeInUp 1s ease-out;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
