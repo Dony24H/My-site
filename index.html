@@ -1,147 +1,324 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Блог о фильмах</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <header>
-            <h1>АНИМЕ КОТОРЫЕ МНЕ ЛЕНЬ СМОТРЕТЬ</h1>
-        </header>
-        <main>
-            <div class="movie-post">
-                <div class="movie-poster">
-                    <img src="https://n1s1.hsmedia.ru/6c/97/33/6c9733197c79da87ebb8eaf210cc7734/599x600_1_b23b2475a930b65787cf21b4f7fa7615@1059x1061_0xac120004_6164629211675071210.jpeg" alt="Ван-пис">
-                </div>
-                <div class="movie-details">
-                    <h2>Ван-пис</h2>
-                    <p>Слишком много серий не захотел смотреть.</p>
-                    <a href="https://jut.su/oneepiece/episode-2.html" class="watch-link">Смотреть трейлер</a>
-                </div>
-            </div>
-
-            <div class="movie-post">
-                <div class="movie-poster">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfKFHtHY43zREJqAegLzDzoJAWPe5RCllnIw&s">
-                </div>
-                <div class="movie-details">
-                    <h2>Сайтама (Ван панчмен)</h2>
-                    <p>Смотрел 15 серий в итоге забросил.</p>
-                    <a href="https://jut.su/onepuunchman/season-1/episode-1.html" class="watch-link">Смотреть трейлер</a>
-                </div>
-            </div>
-
-            <div class="movie-post">
-                <div class="movie-poster">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0OMQr5a1KplUSuwWVY-obCFjZ0y0p0-iOkQ&s" alt="Название фильма">
-                </div>
-                <div class="movie-details">
-                    <h2>Клинок рассекающих демонов</h2>
-                    <p>Только в ТТ смотрел. Смотрю сколько там серий и закрываю хром.</p>
-                    <a href="https://jut.su/kime-no-yaiba/season-1/episode-1.html" class="watch-link">Смотреть трейлер</a>
-                </div>
-            </div>
-
-            <div class="movie-post">
-                <div class="movie-poster">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaRESjGAHYnkABUuyNvwUGD3_57YBoq4qCM_H6K6JKgSRJlbWG5Ob-6ZPjhw7kUGFhi1w&usqp=CAU" alt="Черный клевер">
-                </div>
-                <div class="movie-details">
-                    <h2>Черный клевер</h2>
-                    <p>Смотрел 10 серий, в итоге забросил.</p>
-                    <a href="https://jut.su/black-clouver/episode-1.html" class="watch-link">Смотреть трейлер</a>
-                </div>
-            </div>
-
-            <div class="movie-post">
-                <div class="movie-poster">
-                    <img src="https://pm1.aminoapps.com/8309/9e9aaec3872d7f813975723af40c5100e7e2f659r1-624-624v2_00.jpg" alt="Ренкаринация безработного">
-                </div>
-                <div class="movie-details">
-                    <h2>Ренкаринация безработного</h2>
-                    <p>Смотрел только 1 сезон и забросил.</p>
-                    <a href="https://jut.su/mushoku-tensei/season-1/episode-1.html" class="watch-link">Смотреть трейлер</a>
-                </div>
-            </div>
-
-            <div class="movie-post">
-                <div class="movie-poster">
-                    <img src="https://kinogo.inc/uploads/posts/2021-11/1637228951-117766746-mag-celitel-novyy-start.jpg" alt="Маг целитель новый старт">
-                </div>
-                <div class="movie-details">
-                    <h2>Маг целитель новый старт</h2>
-                    <p>Смотрел 3 серии и не выдержал, отключил интернет.</p>
-                    <a href="https://jut.su/chiyu-machigatta/episode-10.html?t=0m1s" class="watch-link">Смотреть трейлер</a>
-                </div>
-            </div>
-        </main>
-
-        <footer>
-            <p>© Dony_24H</p>
-        </footer>
-    </div>  
-
-   <!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Блог о фильмах</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <!-- Ваше содержимое здесь -->
-    </div>  
-
-    <!-- Подключение файла JavaScript -->
-    <script src="script.js"></script>
-
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Вставка изображения с размытием</title>
+    <title>Dony Website</title>
     <style>
+        /* Основные стили */
         body {
             font-family: Arial, sans-serif;
-            text-align: center;
-            margin-top: 50px;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f5f5f5;
+            transition: background-color 0.3s, color 0.3s;
         }
 
-        img {
-            width: 70%; /* Ширина изображения */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            font-size: 24px;
+            position: relative;
+        }
+
+        nav {
+            background-color: #444;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .hero {
+            background: url('https://images.wallpapersden.com/image/download/forest-in-autumn_bGVmaG6UmZqaraWkpJRmZ2VlrWllZQ.jpg') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+            padding: 100px 20px;
+            border-radius: 10px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 20px;
             margin-top: 10px;
-            filter: blur(0px); /* Размытие на 40px */
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            flex: 1;
+            min-width: 280px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        .card h3 {
+            margin: 20px 0 10px;
+            font-size: 24px;
+        }
+
+        .card p {
+            font-size: 16px;
+            color: #777;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 40px;
+        }
+
+        /* Темный режим */
+        body.dark-mode {
+            background-color: #121212;
+            color: #f5f5f5;
+        }
+
+        body.dark-mode header {
+            background-color: #1f1f1f;
+        }
+
+        body.dark-mode nav {
+            background-color: #333;
+        }
+
+        body.dark-mode nav a {
+            background-color: #555;
+        }
+
+        body.dark-mode .hero {
+            background-color: #333;
+            color: #fff;
+        }
+
+        body.dark-mode .card {
+            background-color: #1f1f1f;
+            color: #fff;
+        }
+
+        body.dark-mode footer {
+            background-color: #1f1f1f;
+        }
+
+        /* Стили для переключателя */
+        .theme-switch {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            display: inline-block;
+            width: 60px;
+            height: 34px;
+        }
+
+        .theme-switch input {
+            display: none;
+        }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            transition: 0.4s;
+            border-radius: 34px;
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 26px;
+            width: 26px;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            transition: 0.4s;
+            border-radius: 50%;
+        }
+
+        input:checked + .slider {
+            background-color: #2196F3;
+        }
+
+        input:checked + .slider:before {
+            transform: translateX(26px);
+        }
+
+        /* Адаптация под мобильные устройства */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .hero p {
+                font-size: 18px;
+            }
+
+            .cards {
+                flex-direction: column;
+            }
+
+            nav {
+                flex-direction: column;
+            }
+
+            nav a {
+                margin: 5px 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 28px;
+            }
+
+            .hero p {
+                font-size: 16px;
+            }
+
+            .card h3 {
+                font-size: 20px;
+            }
+
+            .card p {
+                font-size: 14px;
+            }
         }
     </style>
 </head>
 <body>
+    <header>
+        Игры
+        <label class="theme-switch">
+            <input type="checkbox" id="theme-toggle">
+            <span class="slider"></span>
+        </label>
+    </header>
+
+    <nav>
+        <a href="#">Terraria</a>
+        <a href="#">Geometry Dash</a>
+        <a href="#">Free Fire</a>
+        <a href="#">Minecraft</a>
+    </nav>
+
+    <div class="container">
+        <section class="hero">
+            <h1>Добро пожаловать на мой сайт</h1>
+            <p>здесь а также вы найдете ссылки на скачивание а также контакты со мной</p>
+        </section>
+
+        <section class="cards">
+            <div class="card">
+                <a href="https://example.com/minecraft">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBPpLlaKIzFxZcVyHTW-G_fOu-o8m55dbO_g&s" alt="Minecraft">
+                    <h3>Minecraft</h3>
+                    <p>Minecraft — компьютерная инди-игра в жанре песочницы, созданная шведским программистом Маркусом Перссоном и выпущенная его студией Mojang AB.</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://example.com/terraria">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrVNzn3aErkS59Ym_qhqbZYFd8laElFfxviQ&s" alt="Terraria">
+                    <h3>Terraria</h3>
+                    <p>Terraria — компьютерная игра в жанре приключенческой песочницы, разработанная американской студией Re-Logic.</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://example.com/freefire">
+                    <img src="https://play-lh.googleusercontent.com/Y35F4HY9dw5_tf5Jjc0r8vWCvFWU7yIaXGjNRKnMOtYsmUNiy-LziZlDWbhpKYl1PBHd=w240-h480-rw" alt="Free Fire">
+                    <h3>Free fire</h3>
+                    <p>Garena Free Fire — условно-бесплатная мобильная многопользовательская онлайн-игра в жанре королевской битвы</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://example.com/geometrydash">
+                    <img src="https://a.silvergames.com/j/b/geometry-dash.jpg">
+                    <h3>Geometry Dash</h3>
+                    <p>Geometry Dash — аркадная игра в жанре платформера, разработанная шведским программистом Робертом Топала.</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://example.com/csgo">
+                    <img src="https://static.wikia.nocookie.net/counterstrike/images/0/07/Csgo_official_avatar.jpg/revision/latest?cb=20170606101717&path-prefix=ru" alt="CS:GO">
+                    <h3>CS:GO</h3>
+                    <p>Counter-Strike: Global Offensive — командный многопользовательский шутер от первого лица, разработанный компанией Valve и Hidden Path Entertainment.</p>
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        &copy; Dony_24H
+    </footer>
 
     <script>
-        // Функция для добавления изображения
-        function addImage() {
-            const imageUrl = 'https://img.freepik.com/free-vector/night-ocean-landscape-full-moon-and-stars-shine_107791-7397.jpg';
+        const toggleSwitch = document.getElementById('theme-toggle');
+        const currentTheme = localStorage.getItem('theme');
 
-            if (imageUrl) {
-                const img = document.createElement('img');
-                img.src = imageUrl;
-                document.body.appendChild(img);
+        if (currentTheme) {
+            document.body.classList.add(currentTheme);
+            if (currentTheme === 'dark-mode') {
+                toggleSwitch.checked = true;
             }
         }
 
-        // Добавляем изображение при загрузке страницы
-        document.addEventListener('DOMContentLoaded', addImage);
+        toggleSwitch.addEventListener('change', () => {
+            if (toggleSwitch.checked) {
+                document.body.classList.add('dark-mode');
+                localStorage.setItem('theme', 'dark-mode');
+            } else {
+                document.body.classList.remove('dark-mode');
+                localStorage.setItem('theme', '');
+            }
+        });
     </script>
-
 </body>
 </html>
-
-
-</body>
-</html>
-
